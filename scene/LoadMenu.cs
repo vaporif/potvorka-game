@@ -11,7 +11,7 @@ public partial class LoadMenu : Godot.Node2D
 		Task.Run(async () =>
 		{
 			await Task.Delay(2000);
-			GetTree().CallDeferred(SceneTree.MethodName.ChangeSceneToFile, "res://menu.tscn");
+			GetTree().CallDeferred(SceneTree.MethodName.ChangeSceneToFile, "res://menu/MainMenu.tscn");
 		});
 	}
 }
