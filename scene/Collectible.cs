@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class weed : Area2D
+public partial class Collectible : Area2D
 {
   private GameManager _manager;
   public override void _Ready()

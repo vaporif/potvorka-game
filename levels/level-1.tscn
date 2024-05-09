@@ -3,9 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://ff58gs0nuiig" path="res://assets/background/Green.png" id="1_1egh6"]
 [ext_resource type="Texture2D" uid="uid://cyfbpuuvo0d4y" path="res://assets/tilesets/Terrain (16x16).png" id="2_xvgc1"]
 [ext_resource type="PackedScene" uid="uid://bcwm2np7pqrtc" path="res://scene/main_character/main_character.tscn" id="3_yr86f"]
-[ext_resource type="PackedScene" uid="uid://ct7v5uxifogqp" path="res://scene/weed.tscn" id="4_tplxf"]
+[ext_resource type="PackedScene" uid="uid://ct7v5uxifogqp" path="res://scene/Collectible.tscn" id="4_tplxf"]
 [ext_resource type="Script" path="res://levels/GameManager.cs" id="5_pldv0"]
-[ext_resource type="PackedScene" uid="uid://b3tfpkxani6lk" path="res://scene/yoba.tscn" id="6_gi3ja"]
+[ext_resource type="PackedScene" uid="uid://b3tfpkxani6lk" path="res://scene/Finish.tscn" id="6_gi3ja"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e0bh3"]
 texture = ExtResource("2_xvgc1")
@@ -515,6 +515,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Dubasik: 0"
+text = "Points: 0"
 horizontal_alignment = 1
 vertical_alignment = 1

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1i0qfdqekjup"]
+
+[ext_resource type="Script" path="res://scene/LoadMenu.cs" id="1_3nk0r"]
+[ext_resource type="Texture2D" uid="uid://tgn7d203tu0g" path="res://assets/End (Idle).png" id="2_f4hmu"]
+
+[node name="Win" type="Node2D"]
+script = ExtResource("1_3nk0r")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(577, 321)
+scale = Vector2(8.53125, 8.53125)
+texture = ExtResource("2_f4hmu")

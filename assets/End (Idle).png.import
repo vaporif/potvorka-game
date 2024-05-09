@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1cbfmotah5b3"
-path="res://.godot/imported/yoba.png-8579ecce19abf536a1893176e71ae353.ctex"
+uid="uid://tgn7d203tu0g"
+path="res://.godot/imported/End (Idle).png-934df53d90b2ab29776348fa746f38d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/yoba.png"
-dest_files=["res://.godot/imported/yoba.png-8579ecce19abf536a1893176e71ae353.ctex"]
+source_file="res://assets/End (Idle).png"
+dest_files=["res://.godot/imported/End (Idle).png-934df53d90b2ab29776348fa746f38d7.ctex"]
 
 [params]
 

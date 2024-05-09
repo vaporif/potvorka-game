@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class yoba : Area2D
+public partial class Finish : Area2D
 {
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -17,7 +17,7 @@ public partial class yoba : Area2D
 	{
 		if (body.Name == "Player")
 		{
-			GetTree().CallDeferred(SceneTree.MethodName.ChangeSceneToFile, "res://scene/win.tscn");
+			GetTree().CallDeferred(SceneTree.MethodName.ChangeSceneToFile, "res://scene/Win.tscn");
 		}
 	}
 }

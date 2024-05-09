@@ -13,6 +13,6 @@ public partial class GameManager : Node
 
 	public void AddPoint() {
 		_points+=1;
-    _label.Text = $"Dubasik: {_points}";
+    _label.Text = $"Points: {_points}";
 	}
 }
